@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: bytenaija-udagram
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: jsnduduheiresi9r9r0tt4jfeojryt8tjtrhffhfief
+  POSTGRESS_DB: bytenaija
+  POSTGRESS_HOST: bytenaija.chhddqfooxgy.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
