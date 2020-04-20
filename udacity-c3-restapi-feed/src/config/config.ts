@@ -22,4 +22,4 @@ export const config = {
   },
 };
 
-console.log(process.env.URL);
+console.log(process.env.URL, "URL and RL and url");
