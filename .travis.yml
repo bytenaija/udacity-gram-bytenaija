@@ -2,38 +2,38 @@ language: minimal
 services: docker
 env:
   matrix:
-  - DOCKER_COMPOSE_VERSION=1.23.2
+    - DOCKER_COMPOSE_VERSION=1.23.2
   global:
-  - secure: zsm2jeozcKI71TWRcjdxo+s/zPKTqqIdnYULkDzI1lzyFdn1p19d6j1uxeRavDV5OpudtXG5Z+QquWWKk56IC/FBZBjIsxsrgDVcYD9cTPyqHA+iOiR/+ZXdphB7o+pMKY3dhnQ7G2iU8LMAqHb7yxeCFmhAuz7oICmyo629ZOUdsmUxCFzNNNQjeD5BeBiiWbyOGMpfgupCS3HOOwDLojkCGIBkuihY+Ch7UMet/rnK187yLPGC+UZnJKNVTHfKamPS+IVk4Qu5tUvyxccPm0prxoBDkrXM3VbjL53cl+ti/h1IYyxTRFF3t4hE+w1HXrpa3cQGioBRtJTY8AX6jfCwut4VCW1SXpSEn2Wm5CrMsY8J8DBaVXzSZb+ZJQkXAo3UWBFtup5pLcDlL2tnbbHc+AZNkOirhybQE2JFKHA/6+U7GwoK4oK/ZHME0J47uF1amlb8Co2sTnHj2SJXhxsUPs2ledL5/sE5qBuqOVYaSLTPOrjUD9fYrZybkLlouaPFIXiPOnijEhsT3gYUP90l8ETXm73gsQgVUdWoOFvZQnuwvLPZGq1CQFpcDoiNsQNyENH0pal3gLoail0OAh4E2A0SwcaT3o/pUMvVUydAJZTwR6zltN4fErdOHYMsW3iP/ybgJvpW5CTiuTaAeILuhmw2EWphA+Kbq8S7Gk4=
-  - secure: RU9ZFin5pO9oLkiYvIwTcUMlew6F2fBjpKGpnywpkRB++m5MgsNro2lbJ18Hp6UIC6rDwJPs+YvGX8eEYUQ8Q/HWPUL6lIMrt9+Grj5bqq9xVCdOnGCQ9m5CpWb1xAplIuDaHgIMbARC4lyv2bEztX8rDpfQRq45IS1adLWn286v83D4d0bJZEQAujDmOT0HacD3TMRjIWCDKn68vZMVZGieOkSP+6MPXDg+A82xuV6qJrk81oGNdIOBSr9XND0spfIKtU0VS77GaCWTzyBlKNrIN+jOLN1kwbNvius4KpZB79bWjzltszgl79vFkybYX+tME0RVUA4cOvizKNh0/mfptm1Y/auPaijhJO5d+zsrCgebnkI54tBvKXxHtFPD0tP0OKb/wUC3+tyNia+h1cCKyqfVgapc/tQOvrEdZWEGlMzwTNBvk5wIjdBaw+IIda5bia571930vFkqkwnVeI+KjSIDxo+L27a9oYvomsj3X7204l9H8rwbH7/67AppnuNHYHzKeQICX48oFYzTYNRBZ5xee6dNK528WiTdXvGUlSUl2YOibC4+ypG5cuo8ino+6SD0riz2EbzBjFEHhv+qYE2shE7WLeVGfvG2XOJMaxecNqmA0OSozvVsRM+QcaX7Y5FG3hhjXASfGxDhi8A8HqAZPZJ2/8FOm43hqUM=
+    - secure: zsm2jeozcKI71TWRcjdxo+s/zPKTqqIdnYULkDzI1lzyFdn1p19d6j1uxeRavDV5OpudtXG5Z+QquWWKk56IC/FBZBjIsxsrgDVcYD9cTPyqHA+iOiR/+ZXdphB7o+pMKY3dhnQ7G2iU8LMAqHb7yxeCFmhAuz7oICmyo629ZOUdsmUxCFzNNNQjeD5BeBiiWbyOGMpfgupCS3HOOwDLojkCGIBkuihY+Ch7UMet/rnK187yLPGC+UZnJKNVTHfKamPS+IVk4Qu5tUvyxccPm0prxoBDkrXM3VbjL53cl+ti/h1IYyxTRFF3t4hE+w1HXrpa3cQGioBRtJTY8AX6jfCwut4VCW1SXpSEn2Wm5CrMsY8J8DBaVXzSZb+ZJQkXAo3UWBFtup5pLcDlL2tnbbHc+AZNkOirhybQE2JFKHA/6+U7GwoK4oK/ZHME0J47uF1amlb8Co2sTnHj2SJXhxsUPs2ledL5/sE5qBuqOVYaSLTPOrjUD9fYrZybkLlouaPFIXiPOnijEhsT3gYUP90l8ETXm73gsQgVUdWoOFvZQnuwvLPZGq1CQFpcDoiNsQNyENH0pal3gLoail0OAh4E2A0SwcaT3o/pUMvVUydAJZTwR6zltN4fErdOHYMsW3iP/ybgJvpW5CTiuTaAeILuhmw2EWphA+Kbq8S7Gk4=
+    - secure: RU9ZFin5pO9oLkiYvIwTcUMlew6F2fBjpKGpnywpkRB++m5MgsNro2lbJ18Hp6UIC6rDwJPs+YvGX8eEYUQ8Q/HWPUL6lIMrt9+Grj5bqq9xVCdOnGCQ9m5CpWb1xAplIuDaHgIMbARC4lyv2bEztX8rDpfQRq45IS1adLWn286v83D4d0bJZEQAujDmOT0HacD3TMRjIWCDKn68vZMVZGieOkSP+6MPXDg+A82xuV6qJrk81oGNdIOBSr9XND0spfIKtU0VS77GaCWTzyBlKNrIN+jOLN1kwbNvius4KpZB79bWjzltszgl79vFkybYX+tME0RVUA4cOvizKNh0/mfptm1Y/auPaijhJO5d+zsrCgebnkI54tBvKXxHtFPD0tP0OKb/wUC3+tyNia+h1cCKyqfVgapc/tQOvrEdZWEGlMzwTNBvk5wIjdBaw+IIda5bia571930vFkqkwnVeI+KjSIDxo+L27a9oYvomsj3X7204l9H8rwbH7/67AppnuNHYHzKeQICX48oFYzTYNRBZ5xee6dNK528WiTdXvGUlSUl2YOibC4+ypG5cuo8ino+6SD0riz2EbzBjFEHhv+qYE2shE7WLeVGfvG2XOJMaxecNqmA0OSozvVsRM+QcaX7Y5FG3hhjXASfGxDhi8A8HqAZPZJ2/8FOm43hqUM=
 before_install:
-- docker -v && docker-compose -v
-- sudo rm /usr/local/bin/docker-compose
-- curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname
-  -s`-`uname -m` > docker-compose
-- chmod +x docker-compose
-- sudo mv docker-compose /usr/local/bin
-- curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-- chmod +x ./kubectl
-- sudo mv ./kubectl /usr/local/bin/kubectl
-- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- mkdir ${HOME}/.kube
-- cp udacity-c3-deployment/k8s/udagram-demo-kubeconfig ${HOME}/.kube/config
+  - docker -v && docker-compose -v
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname
+    -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+  - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+  - chmod +x ./kubectl
+  - sudo mv ./kubectl /usr/local/bin/kubectl
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - mkdir ${HOME}/.kube
+  - cp ./udacity-c3-deployment/k8s/udagram-demo-kubeconfig ${HOME}/.kube/config
 install:
-- echo 'Hello Udacity..3.'
-- docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
-- docker push bytenaija/udacity-restapi-feed
-- docker push bytenaija/udacity-restapi-user
-- docker push bytenaija/reverseproxy
-- docker push bytenaija/udacity-frontend:local
-- kubectl apply -f udacity-c3-deployment/k8s/backend-feed-service.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/backend-user-service.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/frontend-service.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/reverseproxy-service.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/aws-secret.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/env-configmap.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/env-secret.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/backend-feed-deployment.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/backend-user-deployment.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/frontend-deployment.yaml
-- kubectl apply -f udacity-c3-deployment/k8s/reverseproxy-deployment.yaml
+  - echo 'Hello Udacity..3.'
+  - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
+  - docker push bytenaija/udacity-restapi-feed
+  - docker push bytenaija/udacity-restapi-user
+  - docker push bytenaija/reverseproxy
+  - docker push bytenaija/udacity-frontend:local
+  - kubectl apply -f udacity-c3-deployment/k8s/backend-feed-service.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/backend-user-service.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/frontend-service.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/reverseproxy-service.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/aws-secret.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/env-configmap.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/env-secret.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/backend-feed-deployment.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/backend-user-deployment.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/frontend-deployment.yaml
+  - kubectl apply -f udacity-c3-deployment/k8s/reverseproxy-deployment.yaml
