@@ -26,7 +26,7 @@ install:
   - docker push bytenaija/udacity-restapi-feed
   - docker push bytenaija/udacity-restapi-user
   - docker push bytenaija/reverseproxy
-  - docker push bytenaija/udacity-frontend:local
+  - docker push bytenaija/udacity-frontend
   - kubectl apply -f udacity-c3-deployment/k8s/backend-feed-service.yaml
   - kubectl apply -f udacity-c3-deployment/k8s/backend-user-service.yaml
   - kubectl apply -f udacity-c3-deployment/k8s/frontend-service.yaml
