@@ -29,6 +29,7 @@ const c = config.dev;
     next();
   });
 
+  app.use(cors());
   app.use("/api/v0/", IndexRouter);
 
   // Root URI call
