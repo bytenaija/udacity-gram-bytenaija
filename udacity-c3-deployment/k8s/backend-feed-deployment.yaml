@@ -20,7 +20,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-        - image: bytenaija/udacity-c3-restapi-feed
+        - image: bytenaija/udacity-c3-restapi-feed:latest
           name: backend-feed
           imagePullPolicy: Always
           readinessProbe:
