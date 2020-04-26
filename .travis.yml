@@ -18,14 +18,14 @@ before_install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - mkdir ${HOME}/.kube
-  - cp udacity-c3-deployment/k8s/udacity-demo-kubeconfig ${HOME}/.kube/config
+  - cp udacity-c3-deployment/k8s/config ${HOME}/.kube/config
 install:
   - echo 'Hello Udacity..3.'
   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
-  - docker push bytenaija/udacity-restapi-feed
-  - docker push bytenaija/udacity-restapi-user
+  - docker push bytenaija/udacity-c3-restapi-feed
+  - docker push bytenaija/udacity-c3-restapi-user
   - docker push bytenaija/reverseproxy
-  - docker push bytenaija/udacity-frontend
+  - docker push bytenaija/udacity-c3-frontend
   - kubectl apply -f udacity-c3-deployment/k8s/backend-feed-service.yaml
   - kubectl apply -f udacity-c3-deployment/k8s/backend-user-service.yaml
   - kubectl apply -f udacity-c3-deployment/k8s/frontend-service.yaml
