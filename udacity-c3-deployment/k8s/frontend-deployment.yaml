@@ -24,13 +24,6 @@ spec:
         - image: bytenaija/udacity-c3-frontend
           name: frontend
           imagePullPolicy: Always
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 8080
-            initialDelaySeconds: 5
-            periodSeconds: 5
-            successThreshold: 1
           ports:
             - containerPort: 80
           resources:
