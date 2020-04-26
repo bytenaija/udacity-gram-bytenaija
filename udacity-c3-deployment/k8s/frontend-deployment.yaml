@@ -21,7 +21,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: bytenaija/udacity-frontend
+        - image: bytenaija/udacity-c3-frontend
           name: frontend
           imagePullPolicy: Always
           readinessProbe:

@@ -20,7 +20,7 @@ spec:
         service: backend-user
     spec:
       containers:
-        - image: bytenaija/udacity-restapi-user
+        - image: bytenaija/udacity-c3-restapi-user
           name: backend-user
           imagePullPolicy: Always
           readinessProbe:
